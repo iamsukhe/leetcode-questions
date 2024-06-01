@@ -21,6 +21,8 @@ int main() {
     else if (nums[index] == 2) {
       swap(nums[index], nums[j]);
       j--;
+      // Catch -> No need of inedex++ in case of 2
+      // index++
     } else {
       index++;
     }
