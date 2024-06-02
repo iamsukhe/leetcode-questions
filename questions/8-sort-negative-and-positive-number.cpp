@@ -4,6 +4,7 @@ using namespace std;
 int main() {
   int arr[7] = {23, -22, -7, 4, -17, -11, 5};
 
+  // j is the index where we can place negative no
   int j = 0;
 
   for (int i = 0; i < 7; i++) {
