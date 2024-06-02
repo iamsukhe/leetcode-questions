@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+// https://leetcode.com/problems/find-the-duplicate-number/
 int findDuplicate(vector<int> &nums) {
 
   // Negative marking solution
